@@ -1,0 +1,1 @@
+export const artistURL = 'https://theaudiodb.com/api/v1/json/1/search.php?s='

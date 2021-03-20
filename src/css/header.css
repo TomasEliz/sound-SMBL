@@ -1,0 +1,79 @@
+h3,
+h4,
+.nav-ul-li {
+  color: var(--color-light);
+}
+.header {
+  display: grid;
+  grid-template-areas:
+    "form . . . . user-icon"
+    "form . navbar navbar . user-icon";
+  padding: 2rem;
+  background-color: var(--color-primary);
+}
+.nav-ul {
+  grid-area: navbar;
+  display: flex;
+  justify-self: center;
+  border: 3px solid var(--color-light);
+}
+.nav-ul-li {
+  min-width: 12rem;
+  margin: 0.5rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-light);
+  text-align: center;
+  cursor: pointer;
+}
+.nav-ul-li a {
+  display: block;
+  width: 100%;
+  padding: 0.2rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-light);
+  text-align: center;
+}
+.nav-ul-li a:hover {
+  color: var(--color-primary);
+  background-color: var(--color-light);
+  transition: .4s;
+}
+.header-form {
+  grid-area: form;
+  width: 15rem;
+}
+.header-form-label {
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: var(--color-light);
+}
+.header-form-input {
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.header-user-icon {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  grid-area: user-icon;
+  justify-self: end;
+}
+.header-user-icon-image {
+  width: 7rem;
+  height: 7rem;
+  margin-bottom: 0.5rem;
+  border: 3px solid var(--color-light);
+  border-radius: 50%;
+}
+.header-user-icon-name {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-light);
+}

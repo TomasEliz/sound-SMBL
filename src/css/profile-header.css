@@ -1,0 +1,8 @@
+.profile-header {
+    width: 100%;
+    border-bottom: 3px solid var(--color-light);
+}
+.profile-header-user-icon {
+    width: fit-content;
+    margin: 1rem 5rem 1rem auto;
+}

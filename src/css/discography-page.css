@@ -1,0 +1,53 @@
+.discography {
+    padding: 12rem 18rem;
+}
+.discography-artist-name {
+    margin-bottom: 10rem;
+    font-size: 3.5rem;
+    color: var(--color-primary);
+}
+.discography-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.discography-container-album {
+    width: 15rem;
+    margin-right: 5.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.discography-container-album::before {
+    width: 7rem;
+    height: 1.5rem;
+    display: block;
+    position: relative;
+    left: 14rem;
+    top: 12rem;
+    content: '';
+    background-color: var(--color-primary);
+}
+.discography-container-album-p {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0 0 1px var(--color-text-shadow);
+}
+.discography-container-album-p:last-child {
+    font-size: initial;
+    font-weight: 400;
+}
+.discography-container-album-thumb {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color-primary);
+    background-color: var(--color-dark);
+    border: 15px solid var(--color-primary);
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --color-primary: #ff8652;
+  --color-light: #fefefe;
+  --color-dark: #0f0f0f;
+  --color-text-shadow: rgba(0, 0, 0, 0.6);
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  background-color: var(--color-light);
+}
+input,
+button,
+.nav-ul,
+.nav-ul-li,
+.artist-preview-details-ul,
+.nav-ul-li a {
+  border-radius: 5px;
+}
+input,
+button {
+  font-family: "Raleway", sans-serif;
+  border: none;
+  outline: none;
+}
+button {
+  min-width: 8rem;
+  height: 3.6rem;
+  align-self: flex-end;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  border: solid var(--color-dark);
+  cursor: pointer;
+}
+button:hover{
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  text-shadow: 0 0 1px var(--color-dark);
+  transition: 0.3s;
+}
+button:active {
+  background-color: slategray;
+  color: var(--color-dark);
+}
+button:focus {
+  border: solid var(--color-light);
+}
+input {
+  background-color: var(--color-light);
+}
+input:focus {
+  box-shadow: 0 0 0px 3px var(--color-light);
+}
+input::placeholder {
+  font-family: "Raleway", sans-serif;
+  color: rgba(254, 254, 254, 0.1);
+  letter-spacing: 0.6px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
