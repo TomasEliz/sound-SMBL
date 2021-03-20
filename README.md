@@ -16,11 +16,11 @@ Sound-SMBL is a small website for music fans. User can access the website by log
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<img src="/screenshots/sign-up-page.png" width="450"> <img src="/screenshots/band-info-page.png" width="450" >
+<img src="/screenshots/sign-up-page.png" width="400"> <img src="/screenshots/band-info-page.png" width="400" >
 
-<img src="/screenshots/dashboard.png" width="450" > <img src="/screenshots/discography-page.png" width="450" >
+<img src="/screenshots/dashboard.png" width="400" > <img src="/screenshots/discography-page.png" width="400" >
 
-<img src="/screenshots/events-page.png" width="450" > <img src="/screenshots/marked-events-modal.png" width="450" >
+<img src="/screenshots/events-page.png" width="400" > <img src="/screenshots/marked-events-modal.png" width="400" >
 
 <br/>
 
