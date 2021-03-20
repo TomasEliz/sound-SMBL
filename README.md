@@ -1,8 +1,36 @@
-# Getting Started with Create React App
+# sound-SMBL
+
+#### [Javascript, React, React-Redux, CSS]
+
+### !!! Project is work in progress!!!
+#### Simply log in using email: `test@email.com` password: `password1234`, or create account using any non-existent (or real) email address.
+
+Sound-SMBL is a small website for music fans. User can access the website by logging into their account or creating a new one. Website allows user to search for artists, review bio- and discography, check upcoming events. User can Follow artists, create collection of favorite albums and add selected events to their list.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+##### EXTERNAL DATA:
+[AudioDB API](https://www.theaudiodb.com/api_guide.php)
+
+[Songkick API](https://www.songkick.com/developer)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img src="/screenshots/sign-up-page.png" width="470"> <img src="/screenshots/band-info-page.png" width="470" >
+
+<img src="/screenshots/dashboard.png" width="470" > <img src="/screenshots/discography-page.png" width="470" >
+
+<img src="/screenshots/events-page.png" width="470" > <img src="/screenshots/marked-events-modal.png" width="470" >
+
+<br/>
+
+[sound-SMBL](https://sound-smbl.vercel.app) is hosted on [Vercel](https://vercel.com/)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -39,33 +67,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# sound-SMBL
