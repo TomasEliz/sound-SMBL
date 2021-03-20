@@ -3,9 +3,9 @@
 #### [Javascript, React, React-Redux, CSS]
 
 ### !!! Project is work in progress!!!
-#### Simply log in using email: `test@email.com` password: `password1234`, or create account using any non-existent (or real) email address.
+#### Simply log in using email: `test@email.com` password: `password1234`, or create account using any, for now preferably non-existent, email address.
 
-Sound-SMBL is a small website for music fans. User can access the website by logging into their account or creating a new one. Website allows user to search for artists, review bio- and discography, check upcoming events. User can Follow artists, create collection of favorite albums and add selected events to their list.
+Sound-SMBL is a small website for music fans. User can access the website by logging into the account or creating a new one. Website allows user to search for artists, view bio- and discography, check upcoming events. User can follow artists, create collection of favorite albums and add selected events to their list.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -16,11 +16,11 @@ Sound-SMBL is a small website for music fans. User can access the website by log
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<img src="/screenshots/sign-up-page.png" width="470"> <img src="/screenshots/band-info-page.png" width="470" >
+<img src="/screenshots/sign-up-page.png" width="450"> <img src="/screenshots/band-info-page.png" width="450" >
 
-<img src="/screenshots/dashboard.png" width="470" > <img src="/screenshots/discography-page.png" width="470" >
+<img src="/screenshots/dashboard.png" width="450" > <img src="/screenshots/discography-page.png" width="450" >
 
-<img src="/screenshots/events-page.png" width="470" > <img src="/screenshots/marked-events-modal.png" width="470" >
+<img src="/screenshots/events-page.png" width="450" > <img src="/screenshots/marked-events-modal.png" width="450" >
 
 <br/>
 
